@@ -28,9 +28,12 @@ class CompleteLoginView extends StatelessWidget {
               text: 'Add Address',
             ),
             HeightSpacer(value: 6),
-            CustomButton(
-              text: 'Login',
-            )
+            Padding(
+              padding: EdgeInsets.all(8.0),
+              child: CustomButton(
+                text: 'Login',
+              ),
+            ),
           ],
         ),
       ),
